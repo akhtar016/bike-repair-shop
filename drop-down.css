@@ -1,0 +1,38 @@
+.navBtn {
+    background-color: limegreen;
+    padding: 11px 25px;
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+}
+
+/* This turns drop down off when not used*/
+.dropDownBox {
+    display: none;
+    position: absolute;
+    z-index: 99;
+    padding-top: 20px;
+    margin-left: -30px;
+}
+
+/* This turns drop down menu on during hover */
+.navBtn:hover .dropDownBox {
+    display: block;
+}
+
+.dropDownBox .navBtn:first-child {
+    background-color: salmon;
+}
+
+.dropDownBox .navBtn:last-child {
+    background-color: salmon;
+}
+
+.dropDownBox .navBtn:nth-child(2) {
+    background-color: salmon;
+}
+
+.dropDownBox .navBtn:hover {
+    background-color: yellow;
+}
